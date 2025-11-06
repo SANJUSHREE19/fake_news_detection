@@ -1,0 +1,17 @@
+liar:
+  train: "data/LIAR/train.tsv"
+  test:  "data/LIAR/test.tsv"
+  valid: "data/LIAR/valid.tsv"
+
+fake_real:
+  "true": "data/FakeReal/True.csv"
+  "fake": "data/FakeReal/Fake.csv"
+
+output_dir: "outputs"
+
+text_column_overrides:
+  # if your Fake/Real CSVs have 'text' column it's fine; titles optional
+  fake_real_text: "text"
+
+binary_true_labels: ["true", "mostly-true", "half-true"]
+
