@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+nltk
+joblib
+matplotlib
+seaborn
+tqdm
+pyyaml
+streamlit
+regex
+scipy
+requests
